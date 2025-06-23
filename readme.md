@@ -21,4 +21,4 @@ module.exports = defineConfig
 
 
 Foi criado o teste de API, porem por algum motivo de incompatibilidade ele não encontra no SPEC para rodar o teste.
-porem o codigo esta montado para validar o status code 200,
+porem o codigo esta montado para validar o status code 200 e o nome Professional
