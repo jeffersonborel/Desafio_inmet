@@ -8,7 +8,7 @@ describe('Teste de API', () => {
         }).then((response) => {
             expect(response.status).to.eq(200);
 
-            // Usando lodash para acessar a propriedade, se preferir
+            // Usando lodash
             const listName = _.get(response, 'body.data.list.name');
 
             cy.log('Nome da lista:', listName);
