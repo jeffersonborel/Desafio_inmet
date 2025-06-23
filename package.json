@@ -20,7 +20,10 @@
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
-"nonGlobalStepDefinitions": true,
-"stepDefinitions": "cypress/e2e/login"
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/login"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
